@@ -17,10 +17,68 @@ for (eerste =0; eerste <=7; eerste++ ) {
     	robotArm.grab();
     	color = robotArm.scan();
     	if(color == 'red'){
+    		for (i =1; i <=1; i++){
     		robotArm.moveRight();
+    		}
+    		robotArm.drop();
+    		for (i =1; i <=2; i++){
+    		robotArm.moveLeft();
+    		}
+    		robotArm.drop();
+    		robotArm.moveLeft();
     	}
-    	robotArm.drop();
-    	robotArm.moveLeft();
+    	robotArm.grab();
+    	color = robotArm.scan();
+    	if(color == 'red'){
+    		for (i =1; i <=3; i++){
+    		robotArm.moveRight();
+    		}
+    		robotArm.drop();
+    		for (i =1; i <=4; i++){
+    		robotArm.moveLeft();
+    		}
+    		robotArm.drop();
+    		robotArm.moveLeft();
+    	}
+    	robotArm.grab();
+    	color = robotArm.scan();
+    	if(color == 'red'){
+    		for (i =1; i <=5; i++){
+    		robotArm.moveRight();
+    		}
+    		robotArm.drop();
+    		for (i =1; i <=6; i++){
+    		robotArm.moveLeft();
+    		}
+    		robotArm.drop();
+    		robotArm.moveLeft();
+    	}
+    	robotArm.grab();
+    	color = robotArm.scan();
+    	if(color == 'red'){
+    		for (i =1; i <=7; i++){
+    		robotArm.moveRight();
+    		}
+    		robotArm.drop();
+    		for (i =1; i <=8; i++){
+    		robotArm.moveLeft();
+    		}
+    		robotArm.drop();
+    		robotArm.moveLeft();
+    	}
+    		robotArm.grab();
+    	color = robotArm.scan();
+    	if(color == 'red'){
+    		for (i =1; i <=9; i++){
+    		robotArm.moveRight();
+    		}
+    		robotArm.drop();
+    		for (i =1; i <=10; i++){
+    		robotArm.moveLeft();
+    		}
+    		robotArm.drop();
+    		robotArm.moveLeft();
+    	}
     	
 
 
